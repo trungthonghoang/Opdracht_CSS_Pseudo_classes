@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+li {
+  display: inline-block;
+  padding: 15px;
+}
+
+li:first-child {
+  padding-left: 0px;
+}
+
+nav {
+  background-color: darkblue;
+}
+
+.currentPage {
+  background-color: gray;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+.searchbar:focus {
+  color: red;
+}
+
+/* Deel 1
+
+a:hover {
+  color: lightgreen;
+  font-weight: bold;
+}
+
+a:active {
+  color: red;
+  font-style: italic;
+}
+
+a:visited {
+  color: yellow;
+}
+
+.text:focus {
+  color: green;
+  font-size: 20px;
+} */
